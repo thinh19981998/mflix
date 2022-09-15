@@ -16,22 +16,14 @@
  
  ## Screenshots
  
- |                                     |                                     |                                     |                               |
-|                    :---:            |                :---:                |                   :---:             |                :---:          |
-| ![](screen_shots/home1.png) | ![](screen_shots/home2.png) | ![](screen_shots/Capture.png) | ![](screen_shots/Capture1.png) |
-| ![](screen_shots/home1.png) |
+ |                                     |                                     |                                     |
+|                    :---:            |                :---:                |                   :---:             |
+| ![](screen_shots/home1.PNG) | ![](screen_shots/home2.PNG) | ![](screen_shots/Capture.PNG) |
+| ![](screen_shots/Capture2.PNG)| ![](screen_shots/Capture1.PNG) |
 
 ## Getting Started
+1. Clone this repo by: `git clone https://github.com/thinh19981998/mflix.git`
+2. Install all the packages by: `npm install`
+3. Rename the `.env.example` to `.env`
+4. Run `npm start` 
 
-Clone this project https://github.com/thinh19981998/mflix.git
-
-Fill in the .env.example and rename it to .env
-
-### `npm install`
-
-Dowload dependencies
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
