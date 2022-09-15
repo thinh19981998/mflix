@@ -15,7 +15,7 @@ import {
   Brightness4,
   Brightness7,
 } from '@mui/icons-material';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import useStyles from './styles';
 import { SideBar, Search } from '..';
@@ -33,6 +33,7 @@ function NavBar() {
   const sessionFromLocalStorage = localStorage.getItem('session_id');
   const dispatch = useDispatch();
   const colorMode = useContext(ColorModeContext);
+  const navigate = useNavigate();
 
   useEffect(() => {
     const loginUser = async () => {
@@ -49,6 +50,7 @@ function NavBar() {
         );
         dispatch(setUser(userData));
       }
+      navigate('/');
     };
     loginUser();
   }, [token]);
