@@ -35,7 +35,7 @@ function useAlan() {
           if (mode === 'light') {
             setMode('light');
           } else {
-            setMode('light');
+            setMode('dark');
           }
         } else if (command === 'login') {
           fetchToken();
